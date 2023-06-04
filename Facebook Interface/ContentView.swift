@@ -55,10 +55,7 @@ struct ContentView: View {
                     .frame(width: self.HSC == .compact ? 370 : 650, height: self.HSC == .compact ? 65 : 90)
                     .background(Color("ButtonColor"))
                     .cornerRadius(20) }
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            }
-            
+        
             }
             .padding(.horizontal)
             
